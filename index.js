@@ -23,11 +23,11 @@ function add2(n) {
 
 function funkyFunction() {
   
-  theFunk = funkyFunction()
+  theFunk = funkyFunction();
   
 	return function theFunk() {
 	  
-		return theFunk()
+		return theFunk();
 		
 	}
 }
